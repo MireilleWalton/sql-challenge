@@ -1,5 +1,4 @@
-﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
--- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
+﻿-- CREATE TABLE SCHEMA AND SET PRIMARY, FOREIGN & COMPOSITE KEYS
 
 CREATE TABLE "departments" (
     "dept_no" VARCHAR(10)  NOT NULL,
@@ -48,7 +47,8 @@ CREATE TABLE employees (
     PRIMARY KEY (emp_no)
 );
 
--- Check data imported 
+-- CHECK DATA IMPORTED CORRECTLY
+
 SELECT * FROM departments
 SELECT * FROM dept_emp
 SELECT * FROM dept_manager
