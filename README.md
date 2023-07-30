@@ -1,7 +1,8 @@
 # sql-challenge
 Module 9 Assignment - MONU-VIRT-DATA-PT-05-2023-U-LOLC-MTTH
+Student - Mireille Walton
 
-**files**
+**Files**
 
 -	M9_MW_CSV_Snapshots.pptx
 -	M9_MW_ERD.png
