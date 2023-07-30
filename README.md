@@ -42,6 +42,8 @@ When devising the ERD as the initial step in this project, each table and the co
 
 For example: within the dept_manager table, a department manager role may be shared by more than one employee; or one employee may manage one or more departments.  Accordingly both columns have been used to create a unique composite key.  The dept_emp table has been treated in a similar manner as one employee resource may be split across multiple teams. Consideration was given to the salaries data table and a decision made that a one to one connection is likely to exist between it and the employees table based on workplace payroll system experience that a singular record exists in terms staff salaries whether or not an employee works across multiple teams.  However it is noted that in practice, this connection should be adjusted according to circumstance.  
 
+A separate query has been created for checking duplicates and preparing the data analysis.  
+
 Each table is inspected for duplicates once the table schema has been imported into the PostgreSQL pgAdmin4 app and set key reviewed check for correctness, prior to commencing the analysis.   
 
 **References**
